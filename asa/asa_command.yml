@@ -1,6 +1,5 @@
 - name: Run Commands
   connection: local
-  hosts: asa-test
   gather_facts: false
   vars:
    creds:

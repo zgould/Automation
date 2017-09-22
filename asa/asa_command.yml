@@ -1,6 +1,6 @@
 - name: Run Commands
   connection: local
-  hosts: all
+  hosts: "{{ host }}"
   gather_facts: false
   vars:
    creds:

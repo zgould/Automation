@@ -1,6 +1,10 @@
 - name: Run Commands
   connection: local
+<<<<<<< HEAD
   hosts: all
+=======
+  hosts: "{{ host }}"
+>>>>>>> 67a4379359e7818fc01498b4d8c1e940e305a9c4
   gather_facts: false
   vars:
    creds:

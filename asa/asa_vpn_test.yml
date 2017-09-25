@@ -1,4 +1,4 @@
-- name: Test Templating
+- name: Testing Templating
   hosts: localhost
   gather_facts: false
 

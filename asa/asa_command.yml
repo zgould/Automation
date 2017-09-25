@@ -10,7 +10,7 @@
     host: "{{ inventory_hostname }}"
     authorize: yes
     auth_pass: ch!cK3n
-   command: show version
+   command: show version | grep Seri
   tasks:
 
   - name: Register Original Boot Variable

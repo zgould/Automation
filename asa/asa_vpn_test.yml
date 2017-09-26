@@ -8,3 +8,5 @@
   tasks:
     - name: make template
       template: src=/home/zgould/playbooks/asa/asa_vpn_test.j2 dest=/home/zgould/playbooks/asa/asa_vpn_results.yml
+
+#    - include: /home/zgould/playbooks/asa/asa_vpn_results.yml
